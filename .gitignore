@@ -1,0 +1,23 @@
+# Environment / secrets
+.env
+.env.*
+*.key
+
+# Node (SiYuan plugin / intelligence service tooling)
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+
+# Python (intelligence service, if implemented in Python)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
